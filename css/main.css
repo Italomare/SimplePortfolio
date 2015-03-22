@@ -98,22 +98,65 @@ img {
 
 .feature {
     margin-bottom: 0px;
-    width: 100%;
+    width: 50%;
 }
 
-#appifyimage img{
-
-    padding: 20px 20px 0px 0px;
+.wrapper {
+    overflow:hidden;
 }
 
-#sunflowerimage img{
-
-    padding: 20px 20px 0px 0px;
+.wrapper div {
+    min-height: 200px;
+    min-width: 300px;
+    padding: 10px;
 }
 
-#bokehimage img {
-
+.appifyimage{
     padding: 20px 20px 0px 0px;
+    float:left;
+    margin-right:20px;
+    width:350px;
+    height: 350px;
+}
+
+.sunflowerimage{
+    padding: 20px 20px 0px 0px;
+    float:left;
+    margin-right: 0px;
+    overflow:hidden;
+    width:350px;
+    height: 350px;
+}
+
+.bokehimage {
+    padding: 20px 20px 0px 0px;
+    float:left;
+    margin-right:0px;
+    overflow:hidden;
+    width: 350px;
+    height: 350px;
+}
+
+@media screen and (max-width: 500px) {
+    .appifyimage {
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+    }
+    .sunflowerimage{
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+    }
+
+    .bokehimage{
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+    }
 }
 
 .box1 {
